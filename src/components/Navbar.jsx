@@ -32,11 +32,11 @@ const Navbar = () => {
             key={nav.id}
             className={`font-poppins 
             font-normal 
-            cursor-pointer 
+            cursor-pointer  
             text-[16px]
             text-white 
             ${index === navLinks.length - 1 ? "mr-0" : "mr-10"}
-            hover:brightness-75`}
+            hover:text-secondary`}
           >
             {/* ************ */}
             {/* Dynamic Link */}
